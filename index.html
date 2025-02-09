@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=web project, initial-scale=1.0">
+    <title> mini web project</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+    }
+    .logo img{
+        height: 50px;
+        width: 60px;
+        margin-left: 40px;
+        margin-top: 15px;
+        border: 2px solid white;
+        
+    }
+    .logo{
+        color: aliceblue;
+        display: flex;
+
+    }
+    .back-img{
+        margin-top: 0px;
+
+    }
+    .course {
+        color: aliceblue;
+        margin-left:40px;
+        margin-top: 10px;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .search{
+        font-size: 10px;
+        margin-top: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        align-items: center;
+        margin-left: 250px;
+        /* border: 1px solid white;
+        border-radius: 20px; */
+    }
+    .home{
+        margin-top: 20px;
+        margin-left: 200px;
+        font-size:30px;
+        text-decoration: none;
+    }
+    .about{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size:30px;
+        text-decoration: none;
+    }
+    .login{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size:30px;
+        text-decoration: none;
+    }
+    .signup{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size:30px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(255, 255, 255);
+        text-shadow: red;
+        animation-name: homepg;
+        animation-duration: 2s;
+    }
+    .back-img .p{
+       color: rgb(246, 252, 255);
+       position: absolute;
+       left: 80px;
+       top: 380px;
+       font-size: 27px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .back-img .h1{
+        position: absolute;
+        top: 327px;
+        color: rgb(21, 112, 209);
+        left: 130px;
+       
+    }
+.back-img h2
+{
+    position: absolute;
+ top: 110px;
+ left: 300px;
+ font-size: 50px;
+ color: aliceblue;
+}
+.btn{
+    position: absolute;
+    bottom: 140px;
+    left: 410px;
+    font-size: 25px;
+    /* padding: 10px; */
+    border: 3px solid black;
+    border-radius: 13px;
+    background-color: rgb(45, 198, 48);
+    color: rgb(220, 85, 85);
+    text-decoration: none;
+
+
+}
+.btn a:hover{
+    background-color: rgb(103, 234, 234);
+    color: rgb(53, 9, 21);
+    border: none;
+    border-radius: 13px;
+}
+.subs{
+    position: absolute;
+    bottom: 140px;
+    left: 150px;
+    font-size: 25px;
+    /* padding: 10px; */
+    border: 3px solid black;
+    border-radius: 13px;
+    background-color: rgb(195, 7, 7);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.subs a:hover{
+    color: red;
+    background-color: white;
+    border: none;
+    border-radius:13px ;
+
+}
+.photo img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    top: 250px;
+}
+a{
+    text-decoration: none;
+}
+.p span{
+    margin-left: 9%;
+    
+}
+</style>
+<body link="white" vlink="white" alink="black">
+    <div class="upper">
+    <div class="logo">
+        <img src="Screenshot 2024-02-02 171348.png" alt="logo">
+   
+    <div class="course">
+       <h1> <a href="course2.html" target="_blank">course</a></h1>
+    </div>
+    <div class="search">
+        <label for="search"></label>
+<input list="options"  id="option"    placeholder="search"  name="search"style="font-size: 26px; border-radius:15px;  >
+        
+         <datalist id="option">
+        <datalist id="option">
+        <option value="CSS">CSS</option> 
+        <option value="javascript">javascript</option>
+        <option value="java">java</option>
+        <option value="c">c</option>
+        <option value="oops">oops</option>
+        <option value="html">HTML</option>
+        <option value="pascal">pascal</option>
+        <option value="sql">sql</option>
+        <option value="node.js">node.js</option>
+        <option value="mysql">mysql</option>
+        <option value="php">php</option>
+        <option value="c#">c#</option>
+        <option value="swift">swift</option>
+        <option value="next.js">next.js</option>
+        <option value="react">react</option>
+        <option value="angular">angular</option>
+        <option value="vue">vue</option>
+    </datalist></datalist>
+    </div>
+    <div class="home">
+       <a href="/homepg.html"> Home</a>
+    </div>
+    <div class="about">
+        <a href="about.html"    >About</a>
+    </div>
+    <div class="login">
+       <a href="/signin.html" target="_blank"> Login</a>
+    </div>
+    <div class="signup">
+        <a href="singup.html" >Sign up</a>
+    </div>
+</div>
+</div>
+    <div class="back-img">
+        <img src="Screenshot 2024-01-31 173234.png" alt="photo">
+        <h2>LEARN FREE CODING WITH SAURABH!</h2>
+        <h1 class="h1">*LEARN PROGRAMMING*</h1>
+        
+        <p class="p"> <span> Welcome to the world of programming! </span>
+            Whether you're a complete beginner or have some <br>experience,learning to code opens up a universe of <br> possibilities. Programming allows you to create softwar.</p>
+    </div>
+    <div>
+        <button  class="btn">
+            <a href="Learn more" target="_blank">Learn more</a></button>
+        <button class="subs"><a href="subscribe">subscribe</a></button>
+        </div>
+        <div class="photo">
+            <img src="AdobeStock_564781232_Preview.jpeg" alt="photo">
+        </div>
+</body>
+</html>
